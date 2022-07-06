@@ -12,7 +12,7 @@ cd /webserver/tomcat9/webapps
 wget https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war
 
 cd /mnt
-git clone https://github.com/satish7498/tomcat-auto-reboot-script.git
+git clone https://github.com/rsatish1777/tomcat-server-with-reboot.git
 cd /mnt/tomcat-auto-reboot-script
 cp tomcat9 /etc/rc.d/init.d
 cd /etc/rc.d/init.d
