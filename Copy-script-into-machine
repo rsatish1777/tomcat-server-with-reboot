@@ -13,7 +13,7 @@ wget https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war
 
 cd /mnt
 git clone https://github.com/rsatish1777/tomcat-server-with-reboot.git
-cd /mnt/tomcat-auto-reboot-script
+cd /mnt/tomcat-server-with-reboot
 cp tomcat9 /etc/rc.d/init.d
 cd /etc/rc.d/init.d
 chmod 755 tomcat9
