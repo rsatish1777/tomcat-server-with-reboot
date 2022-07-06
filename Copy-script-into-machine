@@ -9,7 +9,7 @@ mv apache-tomcat-9.0.64 tomcat9
 cd /webserver/tomcat9/bin
 chmod 744 *
 cd /webserver/tomcat9/webapps
-wget https://tomcat.apache.org/tomcat-5.5-doc/appdev/sample/sample.war
+wget https://get.jenkins.io/war-stable/2.346.1/jenkins.war
 
 cd /mnt
 git clone https://github.com/rsatish1777/tomcat-server-with-reboot.git
